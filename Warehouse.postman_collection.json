@@ -1,0 +1,121 @@
+{
+  "info": {
+    "_postman_id": "94dd755f-5ae1-43e0-8c8b-4981d25c38f2",
+    "name": "Warehouse",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/products",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Articles",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/articles",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "articles"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Sell Dining Table",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/products/Dining Table",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "products",
+            "Dining Table"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Sell Dining Chair",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/products/Dining Chair",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "products",
+            "Dining Chair"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product - Dining Table",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/products/Dining Table",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "products",
+            "Dining Table"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product - Dining Chair",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/products/Dining Chair",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "products",
+            "Dining Chair"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

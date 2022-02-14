@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: IKEA Warehouse Management
+
+warehouse:
+  product:
+    file:
+      path: ${PRODUCT_FILE_PATH:products.json}
+  inventory:
+    file:
+      path: ${INVENTORY_FILE_PATH:inventory.json}
